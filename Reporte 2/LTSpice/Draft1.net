@@ -1,0 +1,13 @@
+* C:\Users\Daniel A\Documents\LTspiceXVII\Draft1.asc
+;Circuito práctica 2
+Vin 1 0   AC 1 ;pulse (0V,5V,0s,1ns,1ns,1ms,2ms)
+R1 1 2 1.2K
+R2 2 3 1.2k
+R3 2 0 15K
+L1 3 0 6.58mH
+;.tran 100us 10ms 1us
+.ac dec 10 1Hz 2000KHz
+;.tran 1us 2ms
+.end
+.backanno
+.end
